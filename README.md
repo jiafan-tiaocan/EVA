@@ -20,13 +20,13 @@ This is a personal agent designed to run on a local machine (Mac/Windows). It ac
 ## 🏗 Architecture
 
 ```mermaid
-graph LR
-    User[User (WeChat/Mobile)] <--> Cloudflare[Cloudflare Tunnel]
-    Cloudflare <--> FastAPI[Local Server]
-    FastAPI <--> Agent[LangGraph Agent]
-    Agent <--> Memory[(ChromaDB)]
-    Agent <--> Notes[Obsidian Vault]
-    Agent <--> LLM[Gemini API]
+flowchart LR
+    User["User (WeChat/Mobile)"] <--> Cloudflare["Cloudflare Tunnel"]
+    Cloudflare <--> FastAPI["Local Server"]
+    FastAPI <--> Agent["LangGraph Agent"]
+    Agent <--> Memory[("ChromaDB")]
+    Agent <--> Notes["Obsidian Vault"]
+    Agent <--> LLM["Gemini API"]
 ```
 
 ## ✨ Features
