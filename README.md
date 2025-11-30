@@ -27,6 +27,7 @@ graph LR
     Agent <--> Memory[(ChromaDB)]
     Agent <--> Notes[Obsidian Vault]
     Agent <--> LLM[Gemini API]
+```
 
 ## ✨ Features
 Bi-directional Sync: Chat via WeChat on mobile; data is stored locally.
