@@ -1,0 +1,16 @@
+langchain
+langchain-google-genai
+langchain-openai
+langgraph
+chromadb
+pydantic
+pydantic-settings
+fastapi
+uvicorn
+apscheduler
+requests
+pillow
+ics
+pyyaml
+wechatpy
+cryptography

@@ -1,0 +1,16 @@
+llm:
+  provider: "google" # or "openai"
+  model_name: "gemini-1.5-pro"
+  api_key: "YOUR_API_KEY_HERE" # User to fill this
+
+memory:
+  chroma_path: "./data/chroma_db"
+  profile_path: "./data/user_profile.json"
+  obsidian_vault: "/Users/username/Documents/MyVault"
+
+server:
+  host: "0.0.0.0"
+  port: 8000
+  wecom_token: "YOUR_WECOM_TOKEN"
+  wecom_aes_key: "YOUR_AES_KEY"
+  wecom_corp_id: "YOUR_CORP_ID"

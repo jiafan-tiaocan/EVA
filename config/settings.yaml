@@ -1,0 +1,13 @@
+llm:
+  provider: "google" # 可切换为 "openai"
+  model_name: "gemini-1.5-pro" # 假设是 Gemini 3，填入对应字符串即可
+  temperature: 0.7
+  api_key: "YOUR_GEMINI_API_KEY"
+
+memory:
+  chroma_path: "./data/chroma_db"
+  profile_path: "./data/user_profile.json"
+
+channels:
+  wecom_webhook: "https://qyapi.weixin.qq.com/cgi-bin/webhook/send?key=YOUR_KEY"
+  email_smtp: "" # 预留
